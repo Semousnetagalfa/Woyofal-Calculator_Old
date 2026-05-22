@@ -112,10 +112,11 @@ def calc():
 
 
 
-'''@application.route("/", methods=["GET"])
+@application.route("/", methods=["GET"])
 def home():
     return "Bot WhatsApp en ligne !"
-if __name__ == '__main__':
+
+'''if __name__ == '__main__':
     application.run(debug=True)'''
 
 @application.route('/webhook', methods=['GET'])
